@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using RaceDay_API.Data;
 using RaceDay_API.Models;
+using RaceDay_API.DTOs;
 using System.Security.Cryptography;
 using System.Text;
 
