@@ -6,6 +6,10 @@ using RaceDay_API.DTOs;
 using System.Security.Cryptography;
 using System.Text;
 
+//This is my AuthController.cs file, which handles user registration and login for the RaceDay_API project.
+//It uses ASP.NET Core MVC and Entity Framework Core to interact with the database.
+//The controller provides endpoints for user registration and login, including password hashing for security.
+
 namespace RaceDay_API.Controllers
 {
     [Route("api/[controller]")]
