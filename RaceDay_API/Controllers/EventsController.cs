@@ -3,6 +3,10 @@ using Microsoft.EntityFrameworkCore;
 using RaceDay_API.Data;
 using RaceDay_API.Models;
 
+// This is my EventsController.cs file, which handles CRUD operations for events in the RaceDay_API project.
+// It uses ASP.NET Core MVC and Entity Framework Core to interact with the database.
+// The controller provides endpoints for creating, reading, updating, and deleting events, with access control based on user roles (Organiser or Participant).
+
 namespace RaceDay_API.Controllers
 {
     [Route("api/[controller]")]
