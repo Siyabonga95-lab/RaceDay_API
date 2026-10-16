@@ -3,6 +3,9 @@ using Microsoft.EntityFrameworkCore;
 using RaceDay_API.Data;
 using RaceDay_API.Models;
 
+// This is my ProfileController.cs file, which handles CRUD operations for user profiles in the RaceDay_API project.
+// It uses ASP.NET Core MVC and Entity Framework Core to interact with the database.
+// The controller provides endpoints for retrieving and updating user profiles.
 
 namespace RaceDay_API.Controllers
 {
