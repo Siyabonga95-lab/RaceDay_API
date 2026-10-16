@@ -1,6 +1,10 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using RaceDay_API.Models;
 
+// This class represents the database context for the RaceDay API.
+// It inherits from DbContext and provides DbSet properties for each of the tables in the database.
+// The OnModelCreating method is overridden to configure unique constraints and relationships between entities.
+
 namespace RaceDay_API.Data
 {
     public class ApplicationDbContext : DbContext
