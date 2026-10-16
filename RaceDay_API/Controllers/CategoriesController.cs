@@ -3,6 +3,9 @@ using Microsoft.EntityFrameworkCore;
 using RaceDay_API.Data;
 using RaceDay_API.Models;
 
+// This is my CategoriesController.cs file, which handles CRUD operations for categories in the RaceDay_API project.
+// It uses ASP.NET Core MVC and Entity Framework Core to interact with the database.
+
 namespace RaceDay_API.Controllers
 {
     [Route("api/[controller]")]
