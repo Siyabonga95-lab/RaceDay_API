@@ -3,6 +3,10 @@ using Microsoft.EntityFrameworkCore;
 using RaceDay_API.Data;
 using RaceDay_API.Models;
 
+// This is my EnrollmentsController.cs file, which handles event enrollments for participants in the RaceDay_API project.
+// It uses ASP.NET Core MVC and Entity Framework Core to interact with the database.
+// The controller provides endpoints for participants to enroll in events and retrieve their enrollments.
+
 namespace RaceDay_API.Controllers
 {
     [Route("api/[controller]")]
